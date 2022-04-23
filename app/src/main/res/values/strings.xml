@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">PretestOrmFarhanFadhilah</string>
+    <string name="transfer">Transfer</string>
+    <string name="top_up">Top Up</string>
+    <string name="mutasi">Mutasi</string>
+    <string name="no_rekening">Nomor Rekening Tujuan</string>
+    <string name="nominal">Nominal</string>
+    <string name="rupiah">Rp</string>
+    <string name="input_rekening">Masukkan Nomor Rekening</string>
+    <string name="input_nominal">Masukkan Nominal Transfer</string>
+    <string name="account">Akun</string>
+    <string name="input_nominal_top_up">Masukkan Nominal To Up</string>
+    <string name="username">Farhan</string>
+    <string name="default_rekening">1298471098241025</string>
+    <string name="home">Home</string>
+</resources>
