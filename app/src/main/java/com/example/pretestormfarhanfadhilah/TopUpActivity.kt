@@ -37,7 +37,7 @@ class TopUpActivity : AppCompatActivity() {
 
         binding.btnTopUp.setOnClickListener {
             val edtSaldo = Integer.parseInt(binding.edtTopUpNominal.text.toString())
-            //check saldo, jika saldo sudah ada maka eksekusi create, jika tidak eksekusi update saldo
+            //check saldo, jika saldo sudah ada maka eksekusi update, jika tidak eksekusi create saldo
             GlobalScope.launch {
                 val saldoUser = saldoDb?.saldoDao()?.getSaldo()
                 Log.d("TAG", "saldo: ${saldoUser}")
